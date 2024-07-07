@@ -1,0 +1,24 @@
+<URProgram name="omer1" installation="default" installationRelativePath="default" createdIn="3.15.6" lastSavedIn="3.15.6">
+  <children>
+    <MainProgram runOnlyOnce="true" InitVariablesNode="false">
+      <children>
+        <Script type="File">
+          <cachedContents>def Program():
+  extruderTcp = p[0.00374, 0.0002, 0.24259, 0, 3.14159, 0]
+  extruderWeight = 0.8
+  extruderCog = [0.00374, 0.0002, 0.24259]
+  Speed000 = 0.2
+  Zone000 = 0.02
+  set_tcp(extruderTcp)
+  set_payload(extruderWeight, extruderCog)
+  movej([0, -0.7854, 1.1345, -1.9199, -1.5708, -1.5708], a=3.1416, v=0.6283, r=Zone000)
+  movej([0, -0.7854, 1.1345, -1.9199, -1.5708, -1.5708], a=3.1416, v=0.6283, r=Zone000)
+end
+Program()
+</cachedContents>
+          <file>omer1.script</file>
+        </Script>
+      </children>
+    </MainProgram>
+  </children>
+</URProgram>
